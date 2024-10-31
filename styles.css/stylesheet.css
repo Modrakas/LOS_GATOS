@@ -1,0 +1,52 @@
+@font-face { 
+  font-family: 'le-murmure'; 
+  font-weight: regular; 
+  src: url('le-murmure.woff');
+}
+
+*{
+  font-family: LeMurmure-Regular, sans-serif;
+  margin: 0px 0px;
+  padding: 0px 0px;
+  background-color: black;
+}
+
+hr {
+  height: .30em;
+  color: black;
+  border: none;
+}
+
+.carouselWrap {
+  margin: 0px;
+  height: 99.2vh;
+  width: 98.2vw;
+  background-color: white;
+  border-radius: 17px;
+  border: 4px black solid;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.carouselTextBox {
+  background-color: white;
+  
+}
+
+.carouselText {
+  padding-top: .7em;
+  padding-bottom: .5em;
+  font-size: 70.2px;
+  white-space: nowrap;
+  animation: scrollText 20s linear infinite;
+  background-color: transparent;
+}
+
+/* @keyframes scrollText {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+} */
